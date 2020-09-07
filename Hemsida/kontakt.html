@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <h2 id="dadelpalmen">Webbyrå </h2>
+
+    <ul id="navbar">
+        <li id="nav"><a href="index.html">Hem</a> </li>
+        <li id="nav"><a href="omOss.html">Om Mig</a></li>
+        <li id="nav"><a href="portfolio.html">Portfolio</a></li>
+        <li id="nav"><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+
+    <p> Jag tar för tillfället inga uppdrag då jag fortfarande är under utbildning. I framtiden så kanske jag eventuellt kan ta mig an uppdrag <br>
+    Skulle ni trots allt vilja skriva in i min fiktiva kontaktsformulär så är det upp till er, men den kommer inte funka</p>
+
+    <h3>Kontaka mig genom att fylla i formuläret nedan</h3>
+
+    <div class="container">
+        <form action="kontakt.html">
+            <label for="fname">Förnamn</label>
+            <input type="text" id="fname" name="firstname" placeholder="Ditt namn.." required>
+
+            <label for="lname">Efternamn</label>
+            <input type="text" id="lname" name="last name" placeholder="Efternamn" required>
+
+            <label for="epost">E-post</label>
+            <input type="text" id="epost" name="e-post" placeholder="E-Post" required>
+
+            <label for ="country">Land</label>
+            <select id="country" name="country" required>
+                <option value="sverige">Sverige</option>
+                <option value="norge">Norge</option>
+                <option value="finland">Finland</option>
+            </select>
+
+            <label for="subject">Ämne</label>
+            <textarea id="subject" name="subject" placeholder="Write something..." required>
+
+            </textarea>
+
+            <input type="submit" value="Submit">
+            
+        </form>
+
+
+    </div>
+
+
+    <footer>
+        <p>Author: Lamin Aissaoui<br>
+        Date: 2020-08-31
+        Fictionright: Webbyrå<br>
+        
+        En fiktionssida som handlar om Webbyrå.
+
+        </p>
+
+    </footer>
+    
+</body>
+</html>
